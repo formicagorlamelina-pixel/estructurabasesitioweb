@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="800" height="500" fill="#F4F1EC"/>
+
+  <!-- Forma decorativa de fondo -->
+  <circle cx="640" cy="120" r="140" fill="#E8DED0"/>
+  <circle cx="90" cy="420" r="100" fill="#DCE7E4"/>
+
+  <!-- Sobre (envelope) centrado -->
+  <g transform="translate(220,150)">
+    <rect x="0" y="0" width="360" height="230" rx="14" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="4"/>
+    <path d="M0 20 L180 160 L360 20" fill="none" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 20 L0 210 Q0 224 14 224 L346 224 Q360 224 360 210 L360 20" fill="none" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Puntos de "mensaje enviado" -->
+  <circle cx="140" cy="130" r="10" fill="#D98E73"/>
+  <circle cx="170" cy="105" r="6" fill="#D98E73"/>
+  <circle cx="650" cy="360" r="10" fill="#8FA98F"/>
+  <circle cx="680" cy="390" r="6" fill="#8FA98F"/>
+
+  <!-- Líneas tipo "ondas de señal" -->
+  <path d="M540 210 Q560 195 540 180" fill="none" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M565 225 Q595 195 565 165" fill="none" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Texto -->
+  <text x="400" y="450" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#2B2B2B" text-anchor="middle">Hablemos</text>
+</svg>
